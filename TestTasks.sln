@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1.1_Tests", "Task1.1_Tests\Task1.1_Tests.csproj", "{682AC58E-D625-4341-A438-244C431A9D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1.1_Tests", "Task1.1_Tests\Task1.1_Tests.csproj", "{682AC58E-D625-4341-A438-244C431A9D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1_Logger", "Task1_Logger\Task1_Logger.csproj", "{BCA48DFB-A1ED-46FA-9071-0D7BEE28F49C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1_Logger", "Task1_Logger\Task1_Logger.csproj", "{BCA48DFB-A1ED-46FA-9071-0D7BEE28F49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_InventoryManagement", "Task2_InventoryManagement\Task2_InventoryManagement.csproj", "{5BFFA5F0-0BC1-403C-89EE-7E6C583D69DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_InventoryManagement", "Task2_InventoryManagement\Task2_InventoryManagement.csproj", "{5BFFA5F0-0BC1-403C-89EE-7E6C583D69DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

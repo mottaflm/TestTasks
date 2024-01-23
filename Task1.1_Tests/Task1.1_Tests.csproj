@@ -18,4 +18,9 @@
     <PackageReference Include="coverlet.collector" Version="3.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Task1_Logger\Task1_Logger.csproj" />
+    <ProjectReference Include="..\Task2_InventoryManagement\Task2_InventoryManagement.csproj" />
+  </ItemGroup>
+
 </Project>
