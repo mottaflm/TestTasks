@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using System.Text;
+﻿using System.Text;
 
 namespace Task1_Logger
 {
@@ -21,11 +20,13 @@ namespace Task1_Logger
             writer.Flush();
         }
 
-        //public static string GetFolderPath() => @$"../../../../{Assembly.GetCallingAssembly().GetName().Name}";
         public static string GetFolderPath() => @$"../../../..";
 
         private class Log
         {
+            private string _message;
+            private string _type;
+
             public string Message
             {
                 get => _message ??= "UNAVAILABLE_MESSAGE";
@@ -45,9 +46,6 @@ namespace Task1_Logger
                         _type = value;
                 }
             }
-
-            private string _message;
-            private string _type;
 
             public Log(string logMessage, string logType)
             {

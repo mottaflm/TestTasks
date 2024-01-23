@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Task1_Logger;
+using Task2_InventoryManagement;
 
 namespace Task1._1_Tests
 {
@@ -8,6 +9,9 @@ namespace Task1._1_Tests
         [SetUp]
         public void Setup()
         {
+            //Debug Test Product Manager Project
+            ProductManager productManager = new ProductManager();
+
             //DO ANY SETUP NEEDED FOR EACH TEST
         }
 

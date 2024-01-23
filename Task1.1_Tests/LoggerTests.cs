@@ -67,7 +67,7 @@ namespace Task1._1_Tests
         {
             Assert.Throws<InvalidDataException>(() =>
             {
-                var fileName = "application.txt";
+                var fileName = "application.png";
                 var logMessage = "Basic Generic Log";
                 var logType = "Generic";
 
